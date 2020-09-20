@@ -19,3 +19,26 @@ tabPanels[panelIndex].style.backgroundColor="";
 }
 showPanel(0,'');
 
+
+
+
+var tabButtonsone=document.querySelectorAll(".tabContainerone .buttonContainerone button");
+var tabPanelsone=document.querySelectorAll(".tabContainerone .tabPanelone");
+
+function showPanelone(panelIndex){
+tabButtonsone.forEach(function(node) {
+node.style.backgroundColor="";
+node.style.color="";
+});
+
+tabButtonsone[panelIndex].style.backgroundColor="";
+tabButtonsone[panelIndex].style.color="";
+tabPanelsone.forEach(function(node) {
+node.style.display="none";
+});
+
+tabPanelsone[panelIndex].style.display="block";
+tabPanelsone[panelIndex].style.backgroundColor="";
+
+}
+showPanelone(0,'');
