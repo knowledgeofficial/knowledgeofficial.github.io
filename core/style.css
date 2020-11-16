@@ -1,0 +1,36 @@
+body{
+background:#efefef;
+font:family:arial;
+}
+
+h1{
+font-size:20px;
+}
+
+a{
+colour:#000000;
+text-decoration:underline;
+}
+
+a:hover{
+color:#000000;
+text-decoration:none;
+}
+
+p{
+font-size:18px;
+}
+
+pre{
+font-size:18px;
+}
+
+@viewport{
+zoom: 1.0;
+width: extend-to-zoom;
+}
+
+@-ms-viewport{
+width: extend-to-zoom;
+zoom: 1.0;
+}

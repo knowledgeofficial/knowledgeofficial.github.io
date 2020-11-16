@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>
+Input Function
+</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width,initial scale=1">
+</head>
+<body style="background-color:teal;">
+<center><h1><div id="header">INPUT FUNCTION</div></h1></center>
+<hr><p>click on buttons to select next topics</p>
+<a href="index.html"> <button style="color:green;"><b>START</b> </button></a>
+<a href="pythoninstall.html"><button style="color:green;"> <b>PYTHON INSTALLATION </b></button></a>
+<a href="introduction.html"> <button style="color:green;"><b>INTRODUCTION</b> </button></a>
+<a href="datatypes.html"><button style="color:green;"> <b>DATA TYPES </b></button></a>
+<a href="typecasting.html"><button style="color:green;"> <b>TYPE CASTING </b></button></a>
+<a href="inputfunction.html"><button style="color:green;"> <b>INPUT FUNCTION </b></button></a>
+<a href="controlstatements.html"><button style="color:green;"> <b>CONTROL STATEMENTS </b></button></a>
+<a href="operators.html"><button style="color:green;"> <b>OPERATORS </b></button></a>
+<hr>
+<pre>
+<font style="color:blue;">Q)How to accept input from the user?</font>
+
+A)By using "input()" function we can get the input from users.
+
+<font style="background-color:gold;">About input() function:</font>
+
+->It is a predefined function,using this function we can accept input from the user, and this function will return accepted input as string value.
+->This function will display a message and it will accept input from the user.
+
+Ex:a=input("Enter your value:")
+   print("a value is:",a)
+
+output:Enter your value:rama
+       a value is:rama
+
+
+<font style="color:blue;">Q)Write a python program to accept input of person name and store in one variable i.e pname and print that value with the help of variable.</font>
+
+A)pname=input("Enter ypur name:")
+  print("your name is:",pname)
+
+output:Enter your name:rama
+       your name is:rama
+
+<font style="color:blue;">Q)Write a python program to accept employee name and employee location and store into a variables i.e ename,eloc and print these two values with the help of variables.</font>
+
+A)ename=input("Enter Employee Name:")
+  eloc=input("Enter Employee Location:")
+  print("Employee Name is:",ename)
+  print("Employee Location is:",eloc)
+
+output:Enter Employee Name:rama
+       Enter Employee Location:Hyderabad
+       Employee Name is:rama
+       Employee Location is:Hyderabad
+
+<font style="color:blue;">Q)Write a python program to accept two numbers and perform addition operation and display addition result.</font>
+
+A)a=int(input("Enter first number:"))
+  b=int(input("Enter second number:"))
+  c=a+b
+  print("Addition result is:",c)
+
+output:Enter first number:10
+       Enter second number:20
+       Addition result is:30
+
+Note:Initially without declaring ant datatype the values or data is stored in string type, for example from the above program if we give a=input("Enter first number") then the value will taken as string as "10" then addition operation for string values would be "10"+"5"=105, usually performing addition operation between two operands it will perform concatination operation, so for that we are stpring the values as interger data as a=int(input("Enter first number:")).
+If you observe here we are using type casting from string to integer data.
+
+<font style="color:blue;">Q)Write a python program to accept person name and person age and display the stored data.</font>
+
+A)name=input("Enter your name:")
+  age=int(input("Enter your age:"))
+  print("your name is:",name)
+  print("your age is:",age)
+
+output:Enter your name:rama
+       Enter your age:20
+       your name is:rama
+       your age is:20
+
+<font style="color:blue;">Q)Write a python program to accept employee number, employee name, employee salary and display to the user.</font>
+
+A)eno=int(input("Enter Employee Number:"))
+  ename=input("Enter Employee Name:")
+  esal=float(input("Enter salary:"))
+  print("Employee Number is:",eno)
+  print("Emoloyee Name is:",ename)
+  print("Employee salary is:",esal)
+
+output:Enter Employee Number:111
+       Enter Employee Name:rama
+       Enter salary:1000
+       Employee Number is:111
+       Emoloyee Name is:rama
+       Employee salary is:1000
+</pre>
+<a href="typecasting.html"><button style=text-align:left;background-color:green;height:40px;width:100px;> <b>PREVIOUS PAGE </b></button></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+<a href="controlstatements.html"><button style=text-align:right;background-color:green;height:40px;width:100px;> <b>NEXT PAGE </b></button></a>
+
+</body>
+</html>
